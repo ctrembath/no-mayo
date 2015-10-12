@@ -32,6 +32,23 @@ h1#hello {
   width: 3.5rem;
   background-color: #FFE5E5;
   border-right: 4px solid #A5D0FF;
+<<<<<<< HEAD
+=======
+
+}
+
+body {
+  background-color: #AAFFDB;
+}
+
+section.rollingIntro {
+  letter-spacing: .5px;
+  text-align: center;
+}
+
+h1, h4, p {
+  font-family: 'Roboto', sans-serif;
+>>>>>>> 875fc0fa028646fd8ac1bdc632724df645d6fc40
 }
 
 .contactHeader {
@@ -51,6 +68,24 @@ h1#hello {
   font-weight: 900;
 }
 
+<<<<<<< HEAD
+=======
+.logo {
+  margin-top: 4rem;
+  height: 24rem;
+  border-radius: 150px;
+  -webkit-transition:-webkit-transform .8s ease-in-out;
+  -ms-transition:-ms-transform .8s ease-in-out;
+  transition:transform .8s ease-in-out
+}
+
+img.logo:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+>>>>>>> 875fc0fa028646fd8ac1bdc632724df645d6fc40
 section.contactInfo-container {
   position: fixed;
   bottom: 0;
