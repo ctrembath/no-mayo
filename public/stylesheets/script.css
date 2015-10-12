@@ -31,6 +31,7 @@ h1, h4, p {
 
 .contactHeader {
   margin-bottom: 0;
+  margin-top: .6rem;
 }
 
 .emailLink {
@@ -74,5 +75,12 @@ h4#contact {
 
 a#email {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 800px)  {
+
+  .logo {
+    height: 12rem;
+  }
 }
 
