@@ -1,21 +1,3 @@
-
-body {
-  background-color: #00FFCB;
-}
-
-section.rollingIntro {
-  letter-spacing: .5px;
-  text-align: center;
-}
-
-h1, h4, p {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1#hello {
-  margin-top: 12%;
-}
-
 .strip {
   margin-left: 3rem;
   height: 100%;
@@ -32,9 +14,6 @@ h1#hello {
   width: 3.5rem;
   background-color: #FFE5E5;
   border-right: 4px solid #A5D0FF;
-<<<<<<< HEAD
-=======
-
 }
 
 body {
@@ -48,7 +27,6 @@ section.rollingIntro {
 
 h1, h4, p {
   font-family: 'Roboto', sans-serif;
->>>>>>> 875fc0fa028646fd8ac1bdc632724df645d6fc40
 }
 
 .contactHeader {
@@ -68,8 +46,6 @@ h1, h4, p {
   font-weight: 900;
 }
 
-<<<<<<< HEAD
-=======
 .logo {
   margin-top: 4rem;
   height: 24rem;
@@ -85,7 +61,6 @@ img.logo:hover {
   -webkit-transform: rotate(360deg);
 }
 
->>>>>>> 875fc0fa028646fd8ac1bdc632724df645d6fc40
 section.contactInfo-container {
   position: fixed;
   bottom: 0;
