@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #00FFCB;
+  background-color: #AAFFDB;
 }
 
 section.rollingIntro {
@@ -46,6 +46,20 @@ h1, h4, p {
   font-weight: 900;
 }
 
+.logo {
+  margin-top: 4rem;
+  height: 24rem;
+  border-radius: 150px;
+  -webkit-transition:-webkit-transform .8s ease-in-out;
+  -ms-transition:-ms-transform .8s ease-in-out;
+  transition:transform .8s ease-in-out
+}
+
+img.logo:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
 
 section.contactInfo-container {
   position: fixed;
