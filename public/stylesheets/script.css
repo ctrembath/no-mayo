@@ -92,11 +92,15 @@ a#email {
   }
 
   .contactHeader {
-    font-size: .7rem;
+    display: none;
   }
 
   .emailLink {
     font-size: .8rem;
+  }
+
+  section.contactInfo-container {
+    margin-bottom: 0;
   }
 }
 
