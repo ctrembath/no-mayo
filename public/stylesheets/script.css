@@ -26,7 +26,8 @@ section.rollingIntro {
 }
 
 h1, h4, p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
 }
 
 .contactHeader {
@@ -44,7 +45,6 @@ h1, h4, p {
 
 #hello {
   margin-top: 4rem;
-  font-weight: 900;
 }
 
 .logo {
@@ -81,6 +81,22 @@ a#email {
 
   .logo {
     height: 12rem;
+  }
+
+  #hello {
+    font-size: 1.8rem;
+  }
+
+  #rolling {
+    font-size: 1.5rem;
+  }
+
+  .contactHeader {
+    font-size: .7rem;
+  }
+
+  .emailLink {
+    font-size: .8rem;
   }
 }
 
