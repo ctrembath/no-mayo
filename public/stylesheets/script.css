@@ -1,3 +1,21 @@
+
+body {
+  background-color: #00FFCB;
+}
+
+section.rollingIntro {
+  letter-spacing: .5px;
+  text-align: center;
+}
+
+h1, h4, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1#hello {
+  margin-top: 12%;
+}
+
 .strip {
   margin-left: 3rem;
   height: 100%;
@@ -14,25 +32,12 @@
   width: 3.5rem;
   background-color: #FFE5E5;
   border-right: 4px solid #A5D0FF;
-
-}
-
-body {
-  background-color: #00FFCB;
-}
-
-section.rollingIntro {
-  letter-spacing: .5px;
-  text-align: center;
-}
-
-h1, h4, p {
-  font-family: 'Roboto', sans-serif;
 }
 
 .contactHeader {
   margin-bottom: 0;
 }
+
 .emailLink {
   font-size: 1.1rem;
   font-weight: 800;
@@ -46,11 +51,18 @@ h1, h4, p {
   font-weight: 900;
 }
 
-
 section.contactInfo-container {
   position: fixed;
   bottom: 0;
-  margin-bottom: 2rem;
-  margin-left: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+h4#contact {
+  font-size: 18px;
+}
+
+a#email {
+  font-size: 16px;
 }
 
