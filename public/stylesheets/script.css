@@ -100,7 +100,8 @@ a#email {
   }
 
   section.contactInfo-container {
-    margin-bottom: 0;
+    margin-bottom: .2rem;
+    margin-left: .2rem;
   }
 }
 
