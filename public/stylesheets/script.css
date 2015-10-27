@@ -1,3 +1,7 @@
+.seoHeader {
+  display: none;
+}
+
 .strip {
   margin-left: 3rem;
   height: 100%;
@@ -17,7 +21,11 @@
 }
 
 body {
-  background-color: #AAFFDB;
+background-image: linear-gradient(90deg, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
+background-image: -moz-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
+background-image: -webkit-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
+background-image: -o-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
+background-image: -ms-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
 }
 
 section.rollingIntro {
