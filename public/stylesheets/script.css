@@ -31,6 +31,11 @@ section.rollingIntro {
 
 h1, h2, h4, p {
   font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  font-family: 'Roboto', sans-serif;
 }
 
 .contactHeader {
