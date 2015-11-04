@@ -77,12 +77,12 @@ section.contactInfo-container {
   margin-left: 2rem;
 }
 
-h4#contact {
-  font-size: 18px;
+h4.contactHeader {
+  font-size: 1.7rem;
 }
 
-a#email {
-  font-size: 16px;
+a.emailLink {
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 800px)  {
@@ -92,11 +92,11 @@ a#email {
   }
 
   #hello {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #rolling {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   .contactHeader {
@@ -108,8 +108,17 @@ a#email {
   }
 
   section.contactInfo-container {
-    margin-bottom: .2rem;
+    margin-bottom: 2rem;
     margin-left: .2rem;
+    text-align: center;
   }
+
+h4.contactHeader {
+  display: none;
 }
 
+a.emailLink {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+} 
