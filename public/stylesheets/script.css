@@ -88,12 +88,13 @@ a.emailLink {
 @media only screen and (max-width: 800px)  {
 
   .logo {
-    height: 6rem;
+    height: 10rem;
     margin-top: 3rem;
   }
 
   #hello {
     font-size: 2rem;
+    margin-top: 2rem;
   }
 
   #rolling {
