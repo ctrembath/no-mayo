@@ -89,6 +89,7 @@ a.emailLink {
 
   .logo {
     height: 12rem;
+    margin-top: 8rem;
   }
 
   #hello {
@@ -113,12 +114,12 @@ a.emailLink {
     text-align: center;
   }
 
-h4.contactHeader {
-  display: none;
-}
+  h4.contactHeader {
+    display: none;
+  }
 
-a.emailLink {
-  font-size: 2rem;
-  padding-bottom: 1.2rem;
-}
+  a.emailLink {
+    font-size: 2rem;
+    padding-bottom: 1.2rem;
+  }
 } 
