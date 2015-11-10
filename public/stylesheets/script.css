@@ -88,7 +88,7 @@ a.emailLink {
 @media only screen and (max-width: 800px)  {
 
   .logo {
-    height: 12rem;
+    height: 6rem;
     margin-top: 3rem;
   }
 
@@ -109,7 +109,6 @@ a.emailLink {
   }
 
   section.contactInfo-container {
-    margin-bottom: 2rem;
     margin-left: .2rem;
     text-align: center;
   }
@@ -120,6 +119,6 @@ a.emailLink {
 
   a.emailLink {
     font-size: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
   }
 } 
