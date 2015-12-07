@@ -24,6 +24,18 @@ body {
   background-image: -ms-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
 }
 
+nav.topNav {
+  padding-top: 1rem;
+}
+
+a.aboutLink {
+  float: right;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
 section.rollingIntro {
   letter-spacing: .5px;
   text-align: center;
@@ -82,8 +94,38 @@ h4.contactHeader {
 }
 
 a.emailLink {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
+
+/*About*/
+.about {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.back {
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+
+.aboutHeader {
+  padding-top: 8rem;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+}
+
+#aboutArticle {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-size: 1.4rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+}
+
 
 @media only screen and (max-width: 800px)  {
 
@@ -105,10 +147,6 @@ a.emailLink {
     display: none;
   }
 
-  .emailLink {
-    font-size: .8rem;
-  }
-
   section.contactInfo-container {
     margin-bottom: 1rem;
     margin-left: .2rem;
@@ -122,4 +160,29 @@ a.emailLink {
   a.emailLink {
     font-size: 1.5rem;
   }
+
+  a.aboutLink {
+    padding-right: 2rem;
+    font-size: 1.15rem;
+  }
+
+  #aboutArticle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  .aboutHeader {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .back {
+    display: none;
+  }
+
 } 
