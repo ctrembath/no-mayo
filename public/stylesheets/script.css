@@ -33,6 +33,7 @@ a.aboutLink {
   padding-right: 1rem;
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -55,21 +56,13 @@ h1, h2, h4, p {
   margin-top: .6rem;
 }
 
-.emailLink {
-  /*font-size: 1.1rem;*/
-  /*font-weight: 800;*/
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 0;
-}
-
 #hello {
   margin-top: 4rem;
 }
 
 .logo {
   margin-top: 4rem;
-  height: 24rem;
+  height: 20rem;
   border-radius: 150px;
   -webkit-transition:-webkit-transform .8s ease-in-out;
   -ms-transition:-ms-transform .8s ease-in-out;
@@ -83,10 +76,7 @@ img.logo:hover {
 }
 
 section.contactInfo-container {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 3rem;
-  margin-left: 2rem;
+  width: 100%;
 }
 
 h4.contactHeader {
@@ -94,7 +84,11 @@ h4.contactHeader {
 }
 
 a.emailLink {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  padding-left: 1rem;
 }
 
 /*About*/
@@ -110,7 +104,7 @@ a.emailLink {
 }
 
 .aboutHeader {
-  padding-top: 8rem;
+  padding-top: 6rem;
   font-size: 1.5rem;
   letter-spacing: 1.5px;
   margin-bottom: 2rem;
@@ -149,6 +143,8 @@ a.emailLink {
 
   section.contactInfo-container {
     margin-bottom: 1rem;
+    position: fixed;
+    bottom: 0;
     margin-left: .2rem;
     text-align: center;
   }
@@ -176,7 +172,7 @@ a.emailLink {
   }
 
   .aboutHeader {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
