@@ -14,9 +14,13 @@ nav.topNav {
   height: 2rem;
 }
 
+#homeNav img {
+  height: 2rem;
+}
+
 a.topnavLink {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
@@ -25,33 +29,18 @@ a.topnavLink {
 }
 
 #aboutNav:hover {
-  color:#4b7196; font-size: 1.35rem;
-  -o-transition:color .2s ease-out, font-size .2s ease-in;
-  -ms-transition:color .2s ease-out, font-size .2s ease-in;
-  -moz-transition:color .2s ease-out, font-size .2s ease-in;
-  -webkit-transition:color .2s ease-out, font-size .2s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, font-size .2s ease-in;
+  font-size: 1.3rem;
+
 }
 
 #contactNav:hover{
-  color:#4b7196; font-size: 1.35rem;
-  -o-transition:color .2s ease-out, font-size .2s ease-in;
-  -ms-transition:color .2s ease-out, font-size .2s ease-in;
-  -moz-transition:color .2s ease-out, font-size .2s ease-in;
-  -webkit-transition:color .2s ease-out, font-size .2s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, font-size .2s ease-in;
+  font-size: 1.3rem;
+
 }
 
 #projectsNav:hover{
-  color:#4b7196; font-size: 1.35rem;
-  -o-transition:color .2s ease-out, font-size .2s ease-in;
-  -ms-transition:color .2s ease-out, font-size .2s ease-in;
-  -moz-transition:color .2s ease-out, font-size .2s ease-in;
-  -webkit-transition:color .2s ease-out, font-size .2s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, font-size .2s ease-in;
+  font-size: 1.3rem;
+
 }
 
 section.rollingIntro {
@@ -119,8 +108,71 @@ h1, h2, h4, p {
 
 /*Projects*/
 
-.downloadCV {
-  
+.projectList {
+  margin-top: 4rem;
+}
+
+.projectHeader{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.weLike {
+  text-align: center;
+}
+
+p.vibes {
+  font-size: 1.5rem;
+  color: #ADFCFF;
+  font-weight: 300;
+  text-shadow: 2px 2px 3px #00BDB8, 0px 0px 3px #000;
+}
+
+a.vibesLink {
+  text-decoration: none;
+  margin-bottom: .3rem;
+
+}
+
+.individualProject {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  list-style-type: none;
+  text-align: center;
+}
+
+.imageRack {
+  height: 4.5rem;
+
+}
+
+#damsel {
+  height: 5.5rem;
+  width: 8rem;
+}
+
+.downloadFooter {
+  text-align: center;
+}
+
+button.downloadCv {
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  padding: 0.9rem;
+  font-family: 'Roboto';
+}
+
+button:focus {
+    outline:none;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 800px)  {
