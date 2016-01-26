@@ -1,40 +1,57 @@
-.strip {
-  margin-left: 3rem;
-  height: 100%;
-  width: 4.3rem;
-  background-color: #AAFFEF;
-  z-index: -100;
-  position: absolute; 
-  border-right: 4px solid #A5D0FF;
-  border-left: 8px solid #FFE5E5;
-}
-
-#strip2 {
-  margin-left: 10rem;
-  width: 3.5rem;
-  background-color: #FFE5E5;
-  border-right: 4px solid #A5D0FF;
-}
+/*HOMEPAGE*/
 
 body {
-  background-image: linear-gradient(90deg, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
-  background-image: -moz-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
-  background-image: -webkit-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
-  background-image: -o-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
-  background-image: -ms-linear-gradient(left, rgb(98, 255, 186) 24%, rgb(133, 255, 201) 100%);
+  background-image: linear-gradient(90deg, rgb(133, 255, 201) 25%, rgb(0, 149, 135) 100%);
+  background-image: -moz-linear-gradient(left, rgb(133, 255, 201) 25%, rgb(0, 149, 135) 100%);
+  background-image: -webkit-linear-gradient(left, rgb(133, 255, 201) 25%, rgb(0, 149, 135) 100%);
+  background-image: -o-linear-gradient(left, rgb(133, 255, 201) 25%, rgb(0, 149, 135) 100%);
+  background-image: -ms-linear-gradient(left, rgb(133, 255, 201) 25%, rgb(0, 149, 135) 100%);
 }
 
 nav.topNav {
   padding-top: 1rem;
+  text-align: center;
+  height: 2rem;
 }
 
-a.aboutLink {
-  float: right;
-  padding-right: 1rem;
+a.topnavLink {
+  padding-right: 2rem;
+  padding-left: 2rem;
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#aboutNav:hover {
+  color:#4b7196; font-size: 1.35rem;
+  -o-transition:color .2s ease-out, font-size .2s ease-in;
+  -ms-transition:color .2s ease-out, font-size .2s ease-in;
+  -moz-transition:color .2s ease-out, font-size .2s ease-in;
+  -webkit-transition:color .2s ease-out, font-size .2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, font-size .2s ease-in;
+}
+
+#contactNav:hover{
+  color:#4b7196; font-size: 1.35rem;
+  -o-transition:color .2s ease-out, font-size .2s ease-in;
+  -ms-transition:color .2s ease-out, font-size .2s ease-in;
+  -moz-transition:color .2s ease-out, font-size .2s ease-in;
+  -webkit-transition:color .2s ease-out, font-size .2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, font-size .2s ease-in;
+}
+
+#projectsNav:hover{
+  color:#4b7196; font-size: 1.35rem;
+  -o-transition:color .2s ease-out, font-size .2s ease-in;
+  -ms-transition:color .2s ease-out, font-size .2s ease-in;
+  -moz-transition:color .2s ease-out, font-size .2s ease-in;
+  -webkit-transition:color .2s ease-out, font-size .2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, font-size .2s ease-in;
 }
 
 section.rollingIntro {
@@ -51,10 +68,6 @@ h1, h2, h4, p {
   font-family: 'Roboto', sans-serif;
 }
 
-.contactHeader {
-  margin-bottom: 0;
-  margin-top: .6rem;
-}
 
 #hello {
   margin-top: 4rem;
@@ -64,32 +77,15 @@ h1, h2, h4, p {
   margin-top: 4rem;
   height: 20rem;
   border-radius: 150px;
-  -webkit-transition:-webkit-transform .8s ease-in-out;
-  -ms-transition:-ms-transform .8s ease-in-out;
-  transition:transform .8s ease-in-out
+ 
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
 }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-img.logo:hover {
-  transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-}
-
-section.contactInfo-container {
-  width: 100%;
-}
-
-h4.contactHeader {
-  font-size: 1.7rem;
-}
-
-a.emailLink {
-  font-size: 1.3rem;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 0;
-  padding-left: 1rem;
-}
 
 /*About*/
 .about {
@@ -120,6 +116,12 @@ a.emailLink {
   font-size: 1.2rem;
 }
 
+
+/*Projects*/
+
+.downloadCV {
+  
+}
 
 @media only screen and (max-width: 800px)  {
 
