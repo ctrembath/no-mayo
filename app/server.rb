@@ -4,7 +4,7 @@ require 'openssl'
 set :public_dir, Proc.new { File.join(root, "..", "public") }
 
 get '/' do
-  csr_key('csr')
+  # csr_key('csr')
   erb :index
 end
 
