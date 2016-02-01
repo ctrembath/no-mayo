@@ -306,8 +306,8 @@ footer {
   }
 
   .individualProject {
-  padding-top: .8rem;
-  padding-bottom: .8rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
   p.vibes {
@@ -332,7 +332,7 @@ footer {
 
 .contact {
   font-weight: 100;
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 3.5rem;
   text-decoration: none;
   color: black;
