@@ -187,6 +187,45 @@ footer {
     width: 100%;
 }
 
+
+/*Contact*/
+
+.contactInfo-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 2rem;
+  width: 30rem;
+  border: 8px solid #001756;
+  box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+}
+
+.contact {
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.contact:hover {
+  color: #b7ffee;
+  text-shadow: 1px 1px 1px #018264;
+}
+
+.call {
+  display: inline;
+}
+
+.contact-header {
+  font-weight: 300;
+}
+
+.email {
+  display: inline;
+}
+
 @media only screen and (max-width: 800px)  {
 
   a.topnavLink {
@@ -277,5 +316,25 @@ footer {
 
   button.downloadCv {
     font-size: .8rem;
+  }
+
+  /*Contact*/
+
+  .contactInfo-container {
+  top: 5rem;
+  margin-top: 0rem;
+  padding: 0rem;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+}
+
+
+.contact {
+  font-weight: 100;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  text-decoration: none;
+  color: black;
   }
 } 
