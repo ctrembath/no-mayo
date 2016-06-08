@@ -28,21 +28,6 @@ a.topnavLink {
   font-weight: 300;
 }
 
-#aboutNav:hover {
-  font-size: 1.3rem;
-
-}
-
-#contactNav:hover{
-  font-size: 1.3rem;
-
-}
-
-#projectsNav:hover{
-  font-size: 1.3rem;
-
-}
-
 section.rollingIntro {
   letter-spacing: .5px;
   text-align: center;
@@ -108,15 +93,35 @@ h1, h2, h4, p {
 
 /*Projects*/
 
-.projectList {
+.projects {
   margin-top: 4rem;
-}
-
-.projectHeader{
-  margin-left: 1rem;
-  font-size: 1.5rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
+
+.projectHeader {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 3.1px;
+  text-shadow: 2px 2px 2px #EE770C;
+  margin-top: 2rem;
+}
+
+.projectTitle {
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.projectLink {
+  color: #1C307E;
+  letter-spacing: 1.1px;
+  font-weight: 400;
+}
+
+
 
 .weLike {
   text-align: center;
@@ -139,23 +144,6 @@ ul {
   margin-left: 0;
 }
 
-.individualProject {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-
-  list-style-type: none;
-  text-align: center;
-}
-
-.imageRack {
-  height: 4.5rem;
-
-}
-
-#damsel {
-  height: 5.5rem;
-  width: 8rem;
-}
 
 .downloadFooter {
   text-align: center;
@@ -173,16 +161,7 @@ button:focus {
     outline:none;
 }
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
-}
-
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     height: 150px;
     width: 100%;
 }
@@ -293,22 +272,7 @@ footer {
 
   /*Projects*/
 
-  .projectList{
-    margin-top: 2.5rem;
-  }
 
-  .projectHeader{
-    font-size: 1.2rem;
-  }
-  .imageRack {
-    height: 2.5rem;
-    margin-top: .5rem;
-  }
-
-  .individualProject {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
 
   p.vibes {
     font-size: 1rem;
