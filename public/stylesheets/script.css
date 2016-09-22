@@ -49,8 +49,8 @@ h1, h2, h4, p {
 }
 
 .logo {
-  margin-top: 4rem;
-  height: 20rem;
+  margin-top: 7rem;
+  height: 14rem;
   border-radius: 150px;
  
   -webkit-animation:spin 4s linear infinite;
@@ -120,6 +120,10 @@ h1, h2, h4, p {
   color: #1C307E;
   letter-spacing: 1.1px;
   font-weight: 400;
+}
+
+.projectLink:hover {
+  color: #1C307E;
 }
 
 
