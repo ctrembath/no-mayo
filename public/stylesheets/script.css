@@ -91,7 +91,48 @@ h1, h2, h4, p {
   font-size: 1.2rem;
 }
 
+/*Careers*/
 
+
+
+.careersSection {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.careers-header {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.careers-role {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 1.5rem;
+}
+
+.careers-subheader {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 1.2rem;
+}
+
+.emailcopy {
+  margin-bottom: 0;
+  display: inline;
+}
+
+.careers-contact {
+  letter-spacing: 1.4px;
+  color: black;
+  display: inline;
+}
 /*Projects*/
 
 .projects {

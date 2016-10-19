@@ -16,10 +16,14 @@ get '/projects' do
 	erb :projects
 end
 
+get '/careers' do
+  erb :careers
+end
 
 get '/contact' do
-	erb :contact
+  erb :contact
 end
+
 
 private
 
