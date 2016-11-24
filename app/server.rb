@@ -8,16 +8,16 @@ get '/' do
   erb :index
 end
 
+get '/work' do
+	erb :work
+end
+
+get '/play' do
+  erb :play
+end
+
 get '/about' do
-	erb :about
-end
-
-get '/projects' do
-	erb :projects
-end
-
-get '/careers' do
-  erb :careers
+  erb :about
 end
 
 get '/contact' do
