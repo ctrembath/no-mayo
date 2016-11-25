@@ -100,7 +100,7 @@ h1, h2, h4, p {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  /*filter: invert();*/
+  filter: invert();
 }
 
 
